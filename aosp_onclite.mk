@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common PixelOS stuff.
+# Inherit some common Elixir stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# Pixel OS Stuff
+ELIXIR_BUILD_TYPE := UNOFFICIAL
+ELIXIR_MAINTAINER := Noviceyash
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_BLUR := true
