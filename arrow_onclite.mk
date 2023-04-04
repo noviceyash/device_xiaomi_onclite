@@ -12,20 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onclite device
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := UNOFFICIAL
-EVO_MAINTAINER := NOVICEYASH
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
+BUILD_TYPE := UNOFFICIAL
+DEVICE_MAINTAINER := NOVICEYASH
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_BLUR := true
-TARGET_USES_MINI_GAPPS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_onclite
+PRODUCT_NAME := arrow_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
