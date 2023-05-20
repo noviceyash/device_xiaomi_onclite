@@ -1,6 +1,6 @@
 git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton
 git clone https://github.com/noviceyash/vendor_xiaomi_onclite.git -b 13 vendor/xiaomi/onclite
-git clone --depth=1 https://github.com/noviceyash/kernel_xiaomi_onclite.git -b 12 kernel/xiaomi/onclite
+git clone --depth=1 https://github.com/noviceyash/kernel_onclite_LOS -b 13 kernel/xiaomi/onclite
 rm -rf hardware/qcom-caf/msm8996/audio
 rm -rf hardware/qcom-caf/msm8996/media
 rm -rf hardware/qcom-caf/msm8996/display
