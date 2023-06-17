@@ -7,6 +7,3 @@ vendor_public_prop(dirac_prop);
 
 # Power HAL
 type power_prop, property_type;
-
-# Build error
-type qti_init_shell, property_type;
