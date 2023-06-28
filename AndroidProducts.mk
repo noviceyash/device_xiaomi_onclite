@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_onclite.mk
+    $(LOCAL_DIR)/pixys_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_onclite-user \
-    aosp_onclite-userdebug \
-    aosp_onclite-eng
+    pixys_onclite-user \
+    pixys_onclite-userdebug \
+    pixys_onclite-eng
