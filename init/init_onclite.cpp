@@ -129,4 +129,8 @@ void vendor_load_properties()
 
     // Override ro.control_privapp_permissions
     property_override("ro.control_privapp_permissions", "log");
+    
+    //Define ro.boot.hardware.sku and ro.boot.product.hardware.sku
+    property_override("ro.boot.hardware.sku", device.c_str());
+    property_override("ro.boot.product.hardware.sku", device.c_str());
 }
